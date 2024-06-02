@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 .footer{
-    background-color:hsl(240, 10%, 16%);
+    background-color:hsl(237, 23%, 32%);
     margin-bottom: 0;
     width: 100%;
     margin-top: 4rem;
@@ -10,6 +10,7 @@
     border-radius: 0 75px 0 0;
 }
 .footer h1{
+    color: white;
     padding: 6% 30% ;
 }
 .footer > ul{
@@ -47,4 +48,6 @@
     font-size: 17px;
     font-weight: 800;
 }
+
+
 

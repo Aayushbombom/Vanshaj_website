@@ -45,10 +45,14 @@ nav{
     justify-content:flex-start;
 }
 .nav-item{
-    color:rgb(37, 150, 190);                     /*  rgb(37, 150, 190) */
+    color: #050A30;                     /*  rgb(37, 150, 190) */
     list-style: none;
     margin: 10px;
     font-family: 'Overpass';
+    font-size: 16px;
+}
+.nav-list > .nav-item{
+    font-weight: bold;
 }
 .nav-item:hover{
     text-decoration: underline;
@@ -67,9 +71,9 @@ nav{
 .nav-item-list > li{
     margin-bottom: 5px;
     font-size: 15px;
-    /* font-weight: bold; */
+    font-weight: lighter;
 }
-.nav-item-list  li:hover{
+.nav-item-list  a:hover{
     font-weight: bold;
 }
 
@@ -116,8 +120,8 @@ nav{
 h1{
     font-family: 'Ubuntu';
     font-size: 50px;
-    font-weight: 800;
-    color: rgba(0,153,159,255);           /*rgba(0,153,159,255)*/
+    font-weight: 900;
+    color: #050A30;           /*rgba(0,153,159,255)*/
 }
 .intro p{
     margin-top: 10px;
@@ -128,13 +132,13 @@ h1{
 
 p{
     font-family: 'Overpass';
-    font-size: 14px;
+    font-size: 16px;
 
-    opacity: 0.9;
-    font-weight: 800;
+    opacity: 1;
+    font-weight: 900;
     line-height: 2em;
     letter-spacing: 0.1em;
-    color: rgb(37, 150, 190);   /*rgb(37, 150, 190);*/
+    color: #050A30;   /*rgb(37, 150, 190);*/
     text-align: justify;           
 }
 .phones img{
