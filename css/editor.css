@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+.editor{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    overflow: hidden;
+    position: relative;
+}
+.editor > h3 {
+     font-family:'Ubuntu';
+     text-align: center;
+     position: absolute;
+     top: 30px;
+     right: 0;
+     left: 0;
+     margin: auto;
+     font-size: 30px;
+     margin-bottom: 20px;
+}
+.editor > .content{
+    display:flex;
+    flex-direction: row;
+}
+.mission  img{
+    transform: translateX(180px);
+    overflow-x: hidden;
+    margin-right: 0;
+    height: 40rem;
+}
+.editor .description {
+    margin-top: 125px;
+    margin-left: 170px;
+    width: 800px;
+}
+.editor .description .edicon{
+    padding: 20px;
+    width: 100%;
+}
+
+.editor .description .edicon h4{
+    font-family:'Ubuntu';
+    font-weight: lighter;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.editor .description .edicon p{
+    color: black;
+}
+

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+.footer{
+    background-color:hsl(240, 10%, 16%);
+    margin-bottom: 0;
+    width: 100%;
+    margin-top: 4rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 0 75px 0 0;
+}
+.footer h1{
+    padding: 6% 30% ;
+}
+.footer > ul{
+    size:60%;
+    margin-left: 0;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    grid-column: 2/4;
+}
+
+.footer-item
+{
+    display: flex;
+    flex-direction:column;
+    list-style: none;
+    color:hsl(0, 0%, 100%);
+    list-style: none;
+    flex-grow:3;
+}
+.footer-item li{
+    list-style:none;
+    padding: 5px 0px;
+    font-size: 13px;
+    font-weight:600;
+    font-family: 'Overpass';
+    opacity: 0.9;
+    line-height: 1.7em;
+}
+.footer-item ul{
+    margin-top: 40px;
+}
+.footer-item h4{
+    font-family:'Ubuntu';
+    font-size: 17px;
+    font-weight: 800;
+}
+

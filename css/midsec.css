@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+.mid-section{
+    margin-top: 50px;
+    display: flex;
+    background-image:url('../images/bg-pattern-circles.svg'),linear-gradient(to right, hsl(237, 17%, 21%),hsl(237, 23%, 32%) );
+    height: 400px;
+    border-radius: 0 70px;
+}
+.mid-section .phones {
+    position: relative;
+    width: 80%;
+}
+
+.phones img {
+    overflow:hidden;
+    position: absolute;
+    left: 130px;
+    top: -70px;
+}
+.mid-section .content{
+   margin-left: 300px;
+   padding: 100px 100px;
+}
+
+.mid-section .content h2{
+    font-family: 'Ubuntu';
+    color: white;
+    margin-bottom: 30px;
+}
+/*Feature Section*/
+.midsec{
+    margin-top:100px;
+    margin-left:0px;
+}
+.midsec .content img{
+     overflow:visible;
+     transform: translateX(-277px);
+}
+
+.midsec .content .img{
+    flex-grow:0.5;
+    width:700px;
+}
+
+.midsec .description {
+    margin: 0;
+    margin-top: 150px;
+    margin-left:0px;
+    margin-right: 90px;
+}
+.midsec .description .edcion{
+    padding-bottom: 50px;
+}
+.midsec .content .description h4{
+  font-size: 25px;
+}
+.text p{
+    color: black;
+}
+
+.contributors{
+    max-width: 900px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.contributors .img{
+    height: 20rem;
+    flex: 0 0 50%;
+    
+}
+
+.contributors img{
+    height: 20rem;
+}
+
+
+
+
+
+

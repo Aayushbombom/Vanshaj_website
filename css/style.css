@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.jumbo{
+    /* background-image: url('../images/bg-pattern-intro.svg'),linear-gradient(to right,rgb(234,198,171),rgb(221,121,44)); */
+    background-image: url('../images/bg-pattern-intro.svg'), linear-gradient(to right, rgb(244, 213, 191), rgb(231, 151, 78));
+    background-position: 30% 50%;
+    width: 100%;
+    border-bottom-left-radius: 60px;
+    padding:0.5px;
+}
+
+nav img{
+    height: 5.125rem;
+}
+.container{
+    margin: 20px auto;
+    max-width: 75%;
+    position:relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.nav-list{
+    display: flex;
+    width: 80%;
+    align-items:center;
+    justify-content:flex-start;
+}
+.nav-item{
+    color:rgb(209,33,32);                     /*  rgb(37, 150, 190) */
+    list-style: none;
+    margin: 10px;
+    font-family: 'Overpass';
+}
+.nav-item:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+.nav-item-list{
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 25px 20px;;
+    list-style: none;
+    color: black;
+    border-radius: 6px;
+    overflow: visible;
+}
+.nav-item-list > li{
+    margin-bottom: 5px;
+    font-size: 15px;
+    /* font-weight: bold; */
+}
+.nav-item-list  li:hover{
+    font-weight: bold;
+}
+
+.logo{
+    margin-right: 40px;
+}
+.icon{
+    margin-right: 7px;
+    margin-left: 2px;
+}
+.btn{
+    font-family: 'Overpass';
+    outline: none;
+    border:none;
+    background-color: transparent;
+    padding: 10px 25px;
+    font-size: 15px;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 30px;
+    color: hsl(0, 0%, 100%);
+    border: 2px soild white;
+}
+.btn:hover{
+    color:hsl(13, 100%, 72%);
+    background-color:white;
+    
+}
+.sp{
+    background-color: white;
+    color:hsl(353, 100%, 62%);
+    text-align: center;
+}
+.sp:hover{
+    color:white;
+    background-color:hsl(13, 100%, 72%);
+}
+.intro{
+    margin: 100px auto;
+    max-width: 80%;
+    text-align: center;
+}
+h1{
+    font-family: 'Ubuntu';
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(209,33,32);           /*rgba(0,153,159,255)*/
+}
+.intro p{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+p{
+    font-family: 'Overpass';
+    font-size: 14px;
+
+    opacity: 0.9;
+    font-weight: 800;
+    line-height: 2em;
+    letter-spacing: 0.1em;
+    color: rgb(209,33,32);   /*rgb(37, 150, 190);*/
+    text-align: justify;           
+}
+.phones img{
+    height: 35rem;
+}
+
+.contri-img img{
+    height: 10%; 
+}
+.seperate_nav{
+    background-color: rgb(234,198,171);
+    margin: 0 auto;
+    /* overflow: auto; */
+}
+.thin{
+    margin: 0 auto;
+    padding: 2px 0;
+}
+
+.journey img{
+    height: 10rem;
+}
+
